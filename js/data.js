@@ -6,8 +6,8 @@ const PORTFOLIO_DATA = {
     email: "astifadest@gmail.com",
     phone: "+62 812 7696 1345",
     location: "Depok, Jawa Barat, Indonesia",
-    education: "Sarjana Sistem Informasi, Universitas Bina Sarana Informatika (UBSI)",
-    photo: "image/astifa.jpg",
+    education: "S1 Sistem Informasi, Universitas Bina Sarana Informatika",
+    photo: "image/astifa2.jpg",
     cvFile: "https://drive.google.com/file/d/1Q7sQ6memkOAGujN04fQv9kyGzvmlyo0a/view?usp=sharing",
     bio: [
       `Lulusan baru S1 Sistem Informasi dengan pengalaman sebagai Data Analyst. Menguasai SQL untuk mengolah dan menganalisis data menggunakan PostgreSQL melalui DBeaver, serta Microsoft Excel, Power BI, Tableau, Looker Studio, dan Grafana untuk visualisasi data.`,
@@ -76,7 +76,7 @@ const PORTFOLIO_DATA = {
     { id: "query", label: "Query Language" },
     { id: "dbms", label: "Database Management Systems" },
     { id: "dbtool", label: "Database Management Tools" },
-    { id: "etl", label: "Data Warehouse & ETL" },
+    { id: "etl", label: "ETL" },
   ],
 
   skills: [
@@ -97,7 +97,7 @@ const PORTFOLIO_DATA = {
     { name: "DBeaver", icon: "", gradient: "from-amber-700 to-orange-900", category: "dbtool", imgSrc: "https://api.iconify.design/simple-icons/dbeaver.svg?color=%23ffffff" },
 
     // Data Warehouse & ETL Tools
-    { name: "Pentaho Data Integration", icon: "fa-solid fa-diagram-project", gradient: "from-teal-500 to-cyan-700", category: "etl", isFA: true },
+    { name: "Pentaho Data Integration", icon: "fa-solid fa-diagram-project", gradient: "from-red-500 to-red-700", category: "etl", isFA: true },
   ],
 
   /* ──────────── Projects ──────────── */
@@ -187,17 +187,17 @@ const PORTFOLIO_DATA = {
   certificateCategories: [
     { id: "all", label: "All" },
     { id: "bnsp", label: "BNSP" },
+    { id: "lbu", label: "Lembaga Bahasa UBSI" },
+    { id: "myskill", label: "MySkill" },
+    { id: "pt", label: "PT Sumihai Teknologi Indonesia" },
     { id: "dqlab", label: "DQLab" },
     { id: "hplife", label: "HP Life" },
     { id: "iaii", label: "Ikatan Ahli Informatika Indonesia" },
-    { id: "pt", label: "PT Sumihai Teknologi Indonesia" },
-    { id: "myskill", label: "MySkill" },
-    { id: "lbu", label: "Lembaga Bahasa UBSI" },
   ],
 
   certificates: [
     { title: "Analis Program", category: "bnsp", year: "2026", issuerLabel: "BNSP", issuerColor: "#0F4C81", image: "image/Analis Program.png", link: "https://drive.google.com/file/d/18NWJrSf0M4UCrurDz0C-cPVmtvCspyY-/view?usp=sharing" },
-    { title: "TOEFL", category: "lbu", year: "2026", issuerLabel: "Lembaga Bahasa UBSI", issuerColor: "#C8102E", image: "image/TOEFL.png", link: "https://drive.google.com/file/d/1N3n6MPQfqqmfFQPE8s1jzAzuaXLtet5J/view?usp=sharing" },
+    { title: "TOEFL Prediction Test", category: "lbu", year: "2026", issuerLabel: "Lembaga Bahasa UBSI", issuerColor: "#C8102E", image: "image/TOEFL.png", link: "https://drive.google.com/file/d/1N3n6MPQfqqmfFQPE8s1jzAzuaXLtet5J/view?usp=sharing" },
     { title: "Exploring Microsoft Excel Home Tab", category: "myskill", year: "2026", issuerLabel: "My Skill", issuerColor: "#7C3AED", image: "image/EXPLORING MICROSOFT EXCEL HOME TAB.png", link: "https://drive.google.com/file/d/1zhccyKtIzZ-Tot1d3t2qOPwB6_9tsZCq/view?usp=sharing" },
     { title: "Microsoft Excel Features", category: "myskill", year: "2026", issuerLabel: "My Skill", issuerColor: "#7C3AED", image: "image/MICROSOFT EXCEL FEATURES.png", link: "https://drive.google.com/file/d/1w48nnkdEZZePDLg0tDWh3dGRZZifBi_X/view?usp=sharing" },
     { title: "Worksheet And Workbook In Microsoft Excel", category: "myskill", year: "2026", issuerLabel: "My Skill", issuerColor: "#7C3AED", image: "image/WORKSHEET AND WORKBOOK IN MICROSOFT EXCEL.png", link: "https://drive.google.com/file/d/1aRYBFIrH5xZMqhipBRh6JYC58wTR59qE/view?usp=sharing" },

@@ -242,22 +242,31 @@ html:not(.dark) .site-header.scrolled {
 }
 
 .logo {
+  display: inline-block;
   font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: -0.02em;
-}
-
-.logo .first-name {
-  background: linear-gradient(135deg, #ee7752, #e73c7e, #23a6d5);
-  background-size: 200% 200%;
+  background: linear-gradient(
+    100deg,
+    #ee7752 0%,
+    #e73c7e 28%,
+    #a855f7 50%,
+    #23a6d5 74%,
+    #23d5ab 100%
+  );
+  background-size: 100% 100%;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient 6s ease infinite;
+  color: transparent;
 }
 
+/* Gradient mengalir dari satu elemen induk agar ketiga kata menyatu */
+.logo .first-name,
 .logo .last-name {
-  color: var(--color-electric-blue);
+  color: inherit;
+  background: none;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Desktop nav */
