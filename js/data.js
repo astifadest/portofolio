@@ -76,7 +76,7 @@ const PORTFOLIO_DATA = {
     { id: "query", label: "Query Language" },
     { id: "dbms", label: "Database Management Systems" },
     { id: "dbtool", label: "Database Management Tools" },
-    { id: "etl", label: "ETL" },
+    { id: "etl", label: "ETL Tools" },
   ],
 
   skills: [
