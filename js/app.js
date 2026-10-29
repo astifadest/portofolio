@@ -214,10 +214,25 @@
       html.classList.remove("dark");
     }
 
+    function updateThemeIcon() {
+      if (!toggle) return;
+      const icon = toggle.querySelector("i");
+      if (!icon) return;
+      const isDark = html.classList.contains("dark");
+      icon.className = isDark ? "fas fa-moon" : "fas fa-sun";
+      toggle.setAttribute(
+        "aria-label",
+        isDark ? "Aktifkan mode terang" : "Aktifkan mode gelap"
+      );
+    }
+
+    updateThemeIcon();
+
     if (toggle) {
       toggle.addEventListener("click", () => {
         html.classList.toggle("dark");
         localStorage.setItem("theme", html.classList.contains("dark") ? "dark" : "light");
+        updateThemeIcon();
       });
     }
   }
