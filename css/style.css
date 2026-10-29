@@ -1336,7 +1336,7 @@ html:not(.dark) .cert-card {
 .cert-card__year {
   top: 0.5rem;
   left: 0.5rem;
-  background: rgba(107,114,128,0.7);
+  background: #A8ADB7;
 }
 
 .cert-card__issuer {

@@ -67,13 +67,11 @@
         </div>
         <div class="project-body">
           <h3 class="project-title">${p.title}</h3>
-          <p class="project-desc" id="pdesc-${idx}">${p.description}</p>
-          <button class="read-more-btn" onclick="window.__toggleDesc('pdesc-${idx}', this)">Read more</button>
           <div class="project-tags">
             ${p.tags.map((t) => `<span class="project-tag bg-gradient-to-r ${t.gradient}">${t.label}</span>`).join("")}
           </div>
           <div class="project-actions">
-            ${p.code ? `<a href="${p.code}" target="_blank" class="btn-project btn-project--outline"><i class="fab fa-github"></i> Code</a>` : ""}
+            ${p.view ? `<a href="${p.view}" target="_blank" class="btn-project btn-project--outline"><i class="fas fa-eye"></i> View</a>` : ""}
           </div>
         </div>
       </div>`
