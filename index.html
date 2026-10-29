@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Astifa Deswanti Talosi — Data Analyst</title>
+  <meta name="description" content="Portfolio of Rifqi Fauzan" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <!-- Tailwind (CDN for utility helpers only) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          fontFamily: { sans: ["Inter", "sans-serif"] },
+        },
+      },
+    };
+  </script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════ HEADER ═══════════════ -->
+  <header class="site-header glass">
+    <div class="container">
+      <div class="header-inner">
+        <!-- Logo -->
+        <a href="#" class="logo">
+          <span class="first-name">Astifa </span><span class="last-name">Deswanti Talosi</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav>
+          <ul class="nav-desktop">
+            <li><a href="#home" class="nav-link active">Beranda</a></li>
+            <li><a href="#about" class="nav-link">Tentang Saya</a></li>
+            <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+            <li><a href="#skills" class="nav-link">Keahlian Teknis</a></li>
+            <li><a href="#projects" class="nav-link">Proyek</a></li>
+            <li><a href="#certificates" class="nav-link">Sertifikasi & Pelatihan</a></li>
+            <li><a href="#contact" class="nav-link">Kontak</a></li>
+          </ul>
+        </nav>
+
+        <!-- Right actions -->
+        <div class="header-actions">
+          <button id="theme-toggle" class="btn-icon theme-toggle" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button id="mobile-menu-btn" class="btn-icon menu-toggle" aria-label="Menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <ul id="mobile-nav" class="nav-mobile">       
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#experience">Pengalaman</a></li>
+        <li><a href="#skills">Keahlian Teknis</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#certificates">Sertifikasi & Pelatihan</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-orb hero-orb--blue"></div>
+    <div class="hero-orb hero-orb--purple"></div>
+    <div class="hero-orb hero-orb--pink"></div>
+
+    <div class="hero-content">
+      <p class="hero-greeting">Halo, Saya</p>
+      <h1 class="hero-name">
+        <span class="gradient-text" id="hero-name">Astifa Deswanti Talosi</span>
+      </h1>
+      <h2 class="hero-title" id="hero-title"></h2>
+    </div>
+
+    <a href="#about" class="hero-scroll-indicator" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section id="about" class="section-padding" style="scroll-margin-top:5rem;">
+    <div class="container">
+      <h2 class="section-title"><span class="gradient-text">Tentang Saya</span></h2>
+
+      <div class="about-grid">
+        <!-- Photo -->
+        <div class="about-photo-wrapper">
+          <div class="about-photo">
+            <img id="about-photo-img" src="image/pp.jpg" alt="Rifqi Fauzan" />
+            <div class="about-photo-ring"></div>
+            <div class="about-photo-dot about-photo-dot--green"></div>
+            <div class="about-photo-dot about-photo-dot--pink"></div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div>
+          <h3 class="about-name">
+            Saya <span class="gradient-text" id="about-name-text">Astifa Deswanti Talosi</span>
+          </h3>
+          <div class="about-bio" id="about-bio-text"></div>
+
+          <div class="info-grid" id="info-pills">
+            <!-- Rendered by JS -->
+          </div>
+
+          <div style="text-align:center;">
+            <a id="cv-download-link" href="#" target="_blank" class="btn-primary">
+              <i class="fas fa-download"></i> Unduh CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ EXPERIENCE ═══════════════ -->
+  <section id="experience" class="experience-section section-padding">
+    <div class="container">
+      <h2 class="section-title"><span class="gradient-text">Pengalaman</span></h2>
+
+      <!-- Filter bar -->
+      <div id="experience-filter-bar" class="filter-bar">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Count -->
+      <p class="experience-count">
+        Menampilkan <strong id="experience-visible-count">0</strong> dari
+        <strong id="experience-total-count">0</strong> pengalaman
+      </p>
+
+      <!-- Timeline -->
+      <ol id="experience-list" class="timeline stagger-children">
+        <!-- Rendered by JS -->
+      </ol>
+
+      <!-- Toggle button -->
+      <button id="toggle-experience-btn" class="toggle-experience-btn">Tampilkan Semua</button>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TECH SKILLS ═══════════════ -->
+  <section id="skills" class="skills-section section-padding">
+    <div class="container">
+      <h2 class="section-title"><span class="gradient-text">Keahlian Teknis</span></h2>
+
+      <!-- Category filter buttons -->
+      <div id="skills-categories" class="skills-categories">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Count -->
+      <p class="skill-count">
+        Menampilkan <strong id="skill-visible-count">0</strong> dari
+        <strong id="skill-total-count">0</strong> keahlian
+      </p>
+
+      <!-- Skills grid -->
+      <div id="skills-grid" class="skills-grid stagger-children">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Toggle button -->
+      <button id="toggle-skills-btn" class="toggle-skills-btn">Tampilkan Semua</button>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PROJECTS ═══════════════ -->
+  <section id="projects" class="projects-section section-padding">
+    <div class="container">
+      <h2 class="section-title"><span class="gradient-text">Proyek Saya</span></h2>
+      <div id="projects-grid" class="projects-grid stagger-children">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CERTIFICATES ═══════════════ -->
+  <section id="certificates" class="certificates-section section-padding">
+    <div class="container">
+      <h2 class="section-title"><span class="gradient-text">Sertifikasi & Pelatihan</span></h2>
+
+      <!-- Filter bar -->
+      <div id="cert-filter-bar" class="filter-bar">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Count -->
+      <p class="certificate-count">
+        Menampilkan <strong id="cert-visible-count">0</strong> dari
+        <strong id="cert-total-count">0</strong> sertifikat
+      </p>
+
+      <!-- Grid -->
+      <div id="certificates-grid" class="certificates-grid stagger-children">
+        <!-- Rendered by JS -->
+      </div>
+
+      <!-- Toggle button -->
+      <button id="toggle-certs-btn" class="toggle-certs-btn">Tampilkan Semua</button>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  
+<section id="contact" class="contact-section section-padding">
+  <div class="container">
+    <h2 class="section-title">
+      <span class="gradient-text">Hubungi Saya</span>
+    </h2>
+
+    <form id="emailForm" class="contact-form" onsubmit="event.preventDefault();">
+      <div class="form-group">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="form-input"
+          placeholder=" "
+          required
+        />
+        <label for="name" class="form-label">Nama Anda</label>
+      </div>
+
+      <div class="form-group">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          class="form-input"
+          placeholder=" "
+          required
+        />
+        <label for="email" class="form-label">Email Anda</label>
+      </div>
+
+      <div class="form-group">
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          class="form-input"
+          placeholder=" "
+          required
+        />
+        <label for="subject" class="form-label">Subjek</label>
+      </div>
+
+      <div class="form-group">
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          class="form-input"
+          placeholder=" "
+          required
+        ></textarea>
+        <label for="message" class="form-label">Pesan Anda</label>
+      </div>
+
+      <button
+        type="button"
+        onclick="sendEmail()"
+        class="btn-submit"
+      >
+        <i class="fas fa-paper-plane"></i>
+        Kirim Pesan
+      </button>
+    </form>
+  </div>
+</section>
+
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div></div>
+        <div id="social-links" class="social-links">
+          <!-- Rendered by JS -->
+        </div>
+        <p class="footer-copy">&copy; <span id="current-year">2026</span> Astifa Deswanti Talosi. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════ SCRIPTS ═══════════════ -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
