@@ -57,7 +57,7 @@ const PORTFOLIO_DATA = {
     },
     {
       org: "PT Mitra Talenta Grup (Celerates)",
-      role: "Data Analyst & Business Intelligence – Studi Independen",
+      role: "Data Analyst & Business Intelligence – Studi Independen x MSIB Batch 7",
       year: "Agustus 2024 – Desember 2024",
       category: "work",
     },
@@ -121,7 +121,7 @@ const PORTFOLIO_DATA = {
       image: "image/Coffe Shop Analytics Dashboard.png",
       badge: { text: "Dashboard", color: "#8AC9A7" },
       tags: [
-        { label: "Excel", gradient: "from-emerald-600 to-green-700" },
+        { label: "Microsoft Excel", gradient: "from-emerald-600 to-green-700" },
         // { label: "CSS", gradient: "from-blue-400 to-blue-600" },
         // { label: "JavaScript", gradient: "from-yellow-400 to-yellow-600" },
         // { label: "PHP", gradient: "from-indigo-500 to-purple-600" },
