@@ -8,7 +8,7 @@ const PORTFOLIO_DATA = {
     location: "Depok, Jawa Barat, Indonesia",
     education: "S1 Sistem Informasi, Universitas Bina Sarana Informatika",
     photo: "image/astifa3.jpg",
-    cvFile: "https://drive.google.com/file/d/1Q7sQ6memkOAGujN04fQv9kyGzvmlyo0a/view?usp=sharing",
+    cvFile: "https://drive.google.com/file/d/1ivo4-pmSmeEvkJEF5PkuU3xn2BqiL955/view?usp=sharing",
     bio: [
       `Lulusan baru S1 Sistem Informasi dengan pengalaman sebagai Data Analyst. Memiliki ketertarikan pada pengolahan data, analisis, serta visualisasi data untuk mendukung berbagai kebutuhan profesional.`,
       `Terampil menggunakan Microsoft Excel untuk pengolahan data, administrasi, dan penyusunan laporan, serta SQL untuk mengolah data dari database PostgreSQL melalui DBeaver. Berpengalaman mengembangkan dashboard untuk memantau kinerja bisnis dan aktivitas operasional menggunakan Microsoft Excel, Power BI, Tableau, Looker Studio, dan Grafana. Selain itu, berpengalaman mengimplementasikan proses ETL menggunakan Pentaho Data Integration (PDI) untuk membangun data warehouse dan data mart.`,
