@@ -56,8 +56,8 @@ const PORTFOLIO_DATA = {
       category: "organization",
     },
     {
-      org: "PT Mitra Talenta Grup (Celerates)",
-      role: "Data Analyst & Business Intelligence – Studi Independen x MSIB Batch 7",
+      org: "PT Mitra Talenta Grup (Celerates) x MSIB Batch 7",
+      role: "Data Analyst & Business Intelligence – Studi Independen",
       year: "Agustus 2024 – Desember 2024",
       category: "work",
     },

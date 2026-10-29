@@ -367,6 +367,19 @@ html:not(.dark) .menu-toggle {
   gap: 0.75rem;
 }
 
+/* Mobile: tombol tema lebih kecil & lebih rapat ke tombol hamburger */
+@media (max-width: 767px) {
+  .header-actions {
+    gap: 0.35rem;
+  }
+
+  .theme-toggle {
+    width: 30px;
+    height: 30px;
+    font-size: 0.75rem;
+  }
+}
+
 /* Mobile nav */
 .nav-mobile {
   display: none;
