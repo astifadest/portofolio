@@ -197,7 +197,6 @@
     const socials = el("social-links");
     if (socials) {
       socials.innerHTML = `
-        <a href="${p.social.github}" target="_blank" class="social-link social-link--github" aria-label="GitHub"><i class="fab fa-github"></i></a>
         <a href="${p.social.linkedin}" target="_blank" class="social-link social-link--linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
         <a href="${p.social.instagram}" target="_blank" class="social-link social-link--instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
       `;
