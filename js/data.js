@@ -84,7 +84,7 @@ const PORTFOLIO_DATA = {
     { name: "Microsoft Excel", icon: "", gradient: "from-emerald-500 to-green-700", category: "analysis", imgSrc: "https://api.iconify.design/mdi/microsoft-excel.svg?color=%23ffffff" },
     { name: "Power BI", icon: "", gradient: "from-gray-700 to-gray-900", category: "analysis", imgSrc: "https://api.iconify.design/logos/microsoft-power-bi.svg" },
     { name: "Tableau", icon: "", gradient: "from-orange-500 to-red-600", category: "analysis", imgSrc: "https://api.iconify.design/cib/tableau.svg?color=%23ffffff" },
-    { name: "Data Studio", icon: "", gradient: "from-blue-900 to-slate-900", category: "analysis", imgSrc: "/image/ic_data_studio.svg" },
+    { name: "Data Studio", icon: "", gradient: "from-blue-900 to-slate-900", category: "analysis", imgSrc: "image/ic_data_studio.svg" },
     { name: "Grafana", icon: "", gradient: "from-orange-900 to-stone-900", category: "analysis", imgSrc: "https://api.iconify.design/logos/grafana.svg" },
 
     // Query Language
